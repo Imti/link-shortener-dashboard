@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LinkDetail /> renders correctly 1`] = `
+<div>
+  <span
+    className="flex items-center text-left text-sm text-slate-400 mb-4 p-2 cursor-pointer hover:underline"
+    onClick={[Function]}
+  >
+    <svg
+      className="mr-1"
+      fill="currentColor"
+      height="10px"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 448 512"
+      width="10px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"
+      />
+    </svg>
+    back to all links
+  </span>
+  <div
+    className="py-16 mb-4"
+  >
+    <span
+      className="block text-xl md:text-2xl font-semibold text-slate-300 mb-1"
+    >
+      Shortened URL
+    </span>
+    <a
+      className="text-xl md:text-3xl font-extrabold text-slate-600 flex items-center justify-center hover:underline"
+      href="http://localhost:8080/f2u9mqhb"
+      rel="noreferrer"
+      target="_blank"
+    >
+      http://localhost:8080/f2u9mqhb
+      <svg
+        className="ml-2"
+        fill="currentColor"
+        height="20"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="grid grid-rows-3 sm:grid-rows-1 grid-flow-cols md:grid-cols-3 gap-4"
+  >
+    <div
+      className="py-12 bg-slate-100 rounded-xl"
+    >
+      <span
+        className="block text-md md:text-xl font-extrabold text-slate-300 mb-1"
+      >
+        Times visited
+      </span>
+      <span
+        className="text-2xl md:text-3xl font-semibold text-slate-600"
+      >
+        66
+      </span>
+    </div>
+    <div
+      className="py-12 bg-slate-100 rounded-xl"
+    >
+      <span
+        className="block text-md md:text-xl font-extrabold text-slate-300 mb-1"
+      >
+        Created on
+      </span>
+      <span
+        className="text-2xl md:text-3xl font-semibold text-slate-600"
+      >
+        July 1st 2023
+      </span>
+    </div>
+    <div
+      className="py-12 bg-slate-100 rounded-xl"
+    >
+      <span
+        className="block text-md md:text-xl font-extrabold text-slate-300 mb-1"
+      >
+        Original URL
+      </span>
+      <a
+        className="flex items-center justify-center text-2xl md:text-3xl font-semibold text-slate-600 hover:underline"
+        href="https://www.google.com/search?q=url+shortener&oq=google+u&aqs=chrome.0.69 i59j69i60l3j0j69i57.1069j0j7&sourceid=chrome&ie=UTF-8"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <span
+          className="overflow-hidden text-ellipsis whitespace-nowrap w-3/4 max-w-[200px] md:max-w-fit"
+        >
+          https://www.google.com/search?q=url+shortener&oq=google+u&aqs=chrome.0.69 i59j69i60l3j0j69i57.1069j0j7&sourceid=chrome&ie=UTF-8
+        </span>
+        <svg
+          className="ml-1"
+          fill="currentColor"
+          height="20"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 512 512"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+`;

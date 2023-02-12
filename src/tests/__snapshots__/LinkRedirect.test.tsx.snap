@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LinkRedirect /> renders correctly 1`] = `
+<span
+  className="block text-xl md:text-2xl font-semibold text-slate-300 mb-1"
+>
+  Redirecting...
+</span>
+`;
