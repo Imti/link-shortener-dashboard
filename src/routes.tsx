@@ -4,6 +4,7 @@ import Home from './views/Home'
 import LinkDetail from './views/LinkDetail'
 import LinkRedirect from './views/LinkRedirect'
 import { Link, onStorageUpdate, getLinksFromStorage } from './utils'
+import NotFound from './views/NotFound'
 
 export default function RoutesTree() {
   const [links, setLinks] = useState(getLinksFromStorage() || [])
@@ -33,6 +34,7 @@ export default function RoutesTree() {
           )
         })}
       </Route>
+      <Route path="*" element={<NotFound />} />
     </Routes>
   )
 }

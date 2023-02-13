@@ -28,9 +28,6 @@ import csvDownload from 'json-to-csv-export'
 import isUrl from 'is-url'
 import { v4 as uuidv4 } from 'uuid'
 
-// TODOs
-// add 404 page
-
 export default function Home() {
   const navigate = useNavigate()
   const [urlString, setUrlString] = useState('')
