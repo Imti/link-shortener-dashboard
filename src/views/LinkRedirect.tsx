@@ -21,7 +21,6 @@ export default function LinkRedirect(props: Link) {
     window.localStorage.setItem('links', JSON.stringify(newLinks))
   }, [id])
 
-  // TODO Determine if we want this or want to use react router Redirect component
   useEffect(() => {
     window.location.href = uri
   }, [uri])

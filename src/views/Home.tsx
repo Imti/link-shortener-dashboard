@@ -29,8 +29,6 @@ import isUrl from 'is-url'
 import { v4 as uuidv4 } from 'uuid'
 
 // TODOs
-// add test cases
-// take a look at the rest of the deliverables
 // add 404 page
 
 export default function Home() {
@@ -83,13 +81,8 @@ export default function Home() {
         throw new Error(`Invalid URL`)
       }
 
-      // TODO remove
-      console.log('is valid', urlString)
-      console.log('url', url)
-
       const shortPath = generateShortPathId()
 
-      // TODO consider moving creation of this object to utils
       const newLink = {
         id: uuidv4(),
         scheme: url.protocol.slice(0, url.protocol.length - 1), // https: -> https
