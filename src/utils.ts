@@ -58,7 +58,7 @@ export function onStorageUpdate(cb: Function) {
 }
 
 export function toReadableDate(dateString: string): string {
-  const date = parseDate(`2023-07-01`, 'yyyy-MM-dd', new Date())
+  const date = parseDate(dateString, 'yyyy-MM-dd', new Date())
   return formatDate(date, 'MMMM do yyy')
 }
 
@@ -67,8 +67,7 @@ export function generateShortPathId(): string {
 }
 
 export function getCreatedDate(): string {
-  const today = new Date()
-  return today.toISOString().substring(0, 10)
+  return formatDate(new Date(), 'yyyy-MM-dd')
 }
 
 export function toDateValue(readableDate: string): number {
