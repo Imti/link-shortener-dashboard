@@ -150,7 +150,7 @@ export default function Home() {
         <form onSubmit={handleSubmit}>
           <input
             type="text"
-            placeholder="https://www.linkedin.com/in/imtimajeed/"
+            placeholder="https://www.youtube.com/shorts/2GLpJNROmJ4"
             className="block my-0 mx-auto sm:inline w-10/12 sm:w-1/2 sm:max-w-md bg-slate-50 border border-slate-300 text-slate-600 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-1.5 sm:mr-4 mb-2 sm:mb-0"
             value={urlString}
             onChange={handleChange}
